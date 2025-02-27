@@ -1,0 +1,103 @@
+.client-logo-area .section-title-two {
+    text-align: center;
+    max-width: 550px;
+    margin: auto;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 5;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .client-logo-area .section-title-two {
+        margin-bottom: 45px;
+    }
+}
+@media (max-width: 767px) {
+    .client-logo-area .section-title-two {
+        margin-bottom: 35px;
+    }
+}
+.client-logo-area .section-title-two span {
+    text-transform: capitalize;
+    color: var(--white);
+    background: var(--primary);
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 5px 15px;
+    border-radius: 4px;
+}
+.client-logo-area .section-title-two h2 {
+    margin-bottom: 15px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .client-logo-area .section-title-two h2 {
+        font-size: 2rem;
+        line-height: 2.8rem;
+    }
+}
+@media (max-width: 767px) {
+    .client-logo-area .section-title-two h2 {
+        font-size: 1.5rem;
+        line-height: 1.9rem;
+    }
+}
+.client-logo-area .section-title-two p {
+    color: var(--dark-3);
+}
+.client-logo-one {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.client-logo-one .single-client {
+    margin-top: 30px;
+}
+.client-logo-center-padding {
+    padding: 25px 0 0 0;
+}
+.logo-blur {
+    filter: blur(6px);
+}
+.h-100 {
+    max-width: 360px;
+}
+@media (min-width: 1400px) {
+    .card-neg-left {
+        margin-right: -30px;
+    }
+    .card-neg-right {
+        margin-left: -30px;
+    }
+    .card-neg-adjust {
+        padding-left: 60px;
+    }
+}
+@media (min-width: 576px) {
+    .search-width-adjust {
+        max-width: 342px;
+    }
+}
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: .75rem;
+    color: white;
+    background-color: rgb(50, 50, 50);
+}
+#featured-3 {
+    padding: 50px 0;
+}
+#featured-3 a, .a-partner a {
+    font-weight: bold;
+    color: rgb(50, 50, 50);
+    text-decoration: none;
+}
+#featured-3 a:hover, .a-partner a:hover {
+    font-weight: bold;
+    color: rgb(100, 100, 100);
+    text-decoration: underline;
+}
+.a-underline a {
+    text-decoration: none;
+}
+.a-underline a:hover {
+    text-decoration: underline;
+}

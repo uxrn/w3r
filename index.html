@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URDN - Decentralized Domain Registry</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="px-4 py-5 my-5 text-center">
+        <div class="container">
+            <img class="d-block mx-auto mb-4" src="images/regit.svg" alt="regit logo" width="80" height="80" />
+            <h1 class="display-5 fw-bold text-body-emphasis">URDN Registry</h1>
+            <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4">Registry for decentralized second-level domains (dSLDs) of HNS decentralized “country” code top-level domains (dccTLDs).</p>
+                <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
+                    <div class="input-group search-width-adjust">
+                        <input class="form-control" type="text" placeholder="Search for .dn, .ur, and .rd" id="sb-input" />
+                        <button class="btn btn-outline-secondary" type="submit" id="button-addon1" onclick="searchReg();">Search</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container py-5">
+        <div class="row row-cols-1 row-cols-md-3 g-4 card-neg-adjust">
+            <div class="col card-neg-left">
+                <div class="card h-100 mx-auto">
+                    <a href="https://porkbun.com/tld/dn" target="_blank">
+                        <img src="images/dot-dn.jpg" class="card-img-top" alt="decentralized network" />
+                    </a>
+                    <div class="card-body">
+                        <h2 class="card-title">.dn</h2>
+                        <p class="card-text">Domain name, decentralized name, display name, data network, and more.</p> 
+                        <p class="card-text">Use the .dn/ dTLD as an all-purpose domain for any of your decentralized naming needs.</p>
+                        <h5 class="card-title">$5.46/yr<span class="fs-6 fw-lighter ps-2">starting price</span></h5>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Available at 
+                            <a href="https://porkbun.com/tld/dn" target="_blank">Porkbun</a> and 
+                            <a href="https://www.encirca.com/handshake-dn/">EnCirca</a>
+                        </small>
+                    </div>
+                </div>
+            </div>
+            <div class="col ">
+                <div class="card h-100 mx-auto">
+                    <a href="https://porkbun.com/tld/rd" target="_blank">
+                        <img src="images/dot-rd.jpg" class="card-img-top" alt="internet roads" />
+                    </a>
+                    <div class="card-body">
+                        <h2 class="card-title">.rd</h2>
+                        <p class="card-text">Road, resolver domain, registered domain, reference data, and more.</p>
+                        <p class="card-text">Use the .rd/ dTLD for any of your address and resolver needs. Own your road.</p>
+                        <h5 class="card-title">$5.46/yr<span class="fs-6 fw-lighter ps-2">starting price</span></h5>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Available at 
+                            <a href="https://porkbun.com/tld/rd" target="_blank">Porkbun</a> and  
+                            <a href="https://www.encirca.com/handshake-rd/">EnCirca</a>
+                        </small>
+                    </div>
+                </div>
+            </div>
+            <div class="col card-neg-right">
+                <div class="card h-100 mx-auto">
+                    <a href="https://porkbun.com/tld/ur" target="_blank">
+                        <img src="images/dot-ur.jpg" class="card-img-top" alt="silhouettes of people" />
+                    </a>
+                    <div class="card-body">
+                        <h2 class="card-title">.ur</h2>
+                        <p class="card-text"><i>You are</i>, <i>your</i>, user record, universal redirect, uniform resource, and more.</p>
+                        <p class="card-text">Use the .ur/ dTLD for any of <i>your</i> redirect, record, or user needs. <i>You are</i> in control.</p>
+                        <h5 class="card-title">$5.46/yr<span class="fs-6 fw-lighter ps-2">starting price</span></h5>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Available at 
+                            <a href="https://porkbun.com/tld/ur" target="_blank">Porkbun</a> and  
+                            <a href="https://www.encirca.com/handshake-ur/">EnCirca</a>
+                        </small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="client-logo-area client-logo-one">
+        <div class="section-title-two">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                    <div class="content a-partner">
+                        <h2 class="fw-bold">Partner Registrars</h2>
+                        <p> Thanks to <a href="https://www.namebase.io/registry/" target="_blank">namebase</a>, our dTLDs are already available on some of the most well-known, trusted registrars out there.</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-xl-3">
+                    <div class="single-client text-center logo-blur">
+                        <img src="images/101domain.svg" alt="101domains logo" height="100" />
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-xl-3">
+                    <div class="single-client text-center client-logo-center-padding">
+                        <a href="https://porkbun.com/tld/dn" target="_blank">
+                            <img src="images/porkbun.svg" alt="Porkbun logo" height="50" />
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-xl-3">
+                    <div class="single-client text-center">
+                        <a href="https://www.encirca.com/handshake-dn/" target="_blank">
+                            <img src="images/encirca.svg" alt="EnCirca logo" height="100" />
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-xl-3">
+                    <div class="single-client text-center client-logo-center-padding logo-blur">
+                        <img src="images/namecheap.svg" alt="Namecheap logo" height="50" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+        <symbol fill="currentColor" id="people-circle" viewBox="0 0 16 16">
+            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+            <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+        </symbol>
+        <symbol id="chevron-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+        </symbol>
+        <symbol  fill="currentColor" id="bi-wallet" viewBox="0 0 16 16">
+            <path d="M12.136.326A1.5 1.5 0 0 1 14 1.78V3h.5A1.5 1.5 0 0 1 16 4.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 13.5v-9a1.5 1.5 0 0 1 1.432-1.499zM5.562 3H13V1.78a.5.5 0 0 0-.621-.484zM1.5 4a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5z"/>
+        </symbol>
+        <symbol fill="currentColor" id="database-lock" viewBox="0 0 16 16">
+            <path d="M13 5.698a5 5 0 0 1-.904.525C11.022 6.711 9.573 7 8 7s-3.022-.289-4.096-.777A5 5 0 0 1 3 5.698V7c0 .374.356.875 1.318 1.313C5.234 8.729 6.536 9 8 9c.666 0 1.298-.056 1.876-.156-.43.31-.804.693-1.102 1.132A12 12 0 0 1 8 10c-1.573 0-3.022-.289-4.096-.777A5 5 0 0 1 3 8.698V10c0 .374.356.875 1.318 1.313C5.234 11.729 6.536 12 8 12h.027a4.6 4.6 0 0 0-.017.8A2 2 0 0 0 8 13c-1.573 0-3.022-.289-4.096-.777A5 5 0 0 1 3 11.698V13c0 .374.356.875 1.318 1.313C5.234 14.729 6.536 15 8 15c0 .363.097.704.266.997Q8.134 16.001 8 16c-1.573 0-3.022-.289-4.096-.777C2.875 14.755 2 14.007 2 13V4c0-1.007.875-1.755 1.904-2.223C4.978 1.289 6.427 1 8 1s3.022.289 4.096.777C13.125 2.245 14 2.993 14 4v4.256a4.5 4.5 0 0 0-1.753-.249C12.787 7.654 13 7.289 13 7zm-8.682-3.01C3.356 3.124 3 3.625 3 4c0 .374.356.875 1.318 1.313C5.234 5.729 6.536 6 8 6s2.766-.27 3.682-.687C12.644 4.875 13 4.373 13 4c0-.374-.356-.875-1.318-1.313C10.766 2.271 9.464 2 8 2s-2.766.27-3.682.687Z"/>
+            <path d="M9 13a1 1 0 0 1 1-1v-1a2 2 0 1 1 4 0v1a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1zm3-3a1 1 0 0 0-1 1v1h2v-1a1 1 0 0 0-1-1"/>
+        </symbol>
+    </svg>
+
+    <div class="container px-4 py-5" id="featured-3">
+        <h2 class="pb-2 text-center fw-bold">Use Cases</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+            <div class="feature col">
+                <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2 mb-3">
+                    <svg class="bi" width="1em" height="1em"><use xlink:href="#people-circle"/></svg>
+                </div>
+                <h4 class=" text-body-emphasis">Digital Identity</h4>
+                <p>Create censorship-resistant domains on the <a href="https://handshake.org" target="_blank">Handshake</a> network. Your domain works as a universal, cross-chain login for accessing decentralized apps and platforms. You have control over what data is shared. Secure your identity for the decentralized web.</p>
+            </div>
+            <div class="feature col">
+                <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2 mb-3">
+                    <svg class="bi" width="1em" height="1em"><use xlink:href="#database-lock"/></svg>
+                </div>
+                <h4 class=" text-body-emphasis">Resistant Websites</h4>
+                <p>Manage your domain's DNS records and enable HTTPS access via <a href="https://github.com/buffrr/letsdane" target="_blank">DANE</a> or upload your website to <a href="https://ipfs.tech/" target="_blank">IPFS</a> for decentralized hosting. Avoid the bureaucracy of ICANN and build on the only naming protocol with a truly decentralized root zone.</p>
+            </div>
+            <div class="feature col">
+                <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2 mb-3">
+                    <svg class="bi" width="1em" height="1em"><use xlink:href="#bi-wallet"/></svg>
+                </div>
+                <h4 class=" text-body-emphasis">Wallet Naming</h4>
+                <p>Get a human readable name to replace all of your lengthy crypto addresses. Stop copying and pasting and risking typos. Use your HNS domain to easily send or receive any cryptocurrency, token, or NFT. Transact between domains easily and efficiently.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container pt-5 px-4 px-sm-0">
+        <footer class="row pt-5 pb-3 border-top">
+            <div class="col-12 col-lg-6 mb-3 order-4 order-lg-1">
+                <a href="#" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+                    <img class="bi me-2" src="images/hns.svg" alt="HNS logo" width="40" height="32" />
+                    
+                </a>
+                <p class="text-body-secondary">&copy; <script>document.write(new Date().getFullYear())</script> URDN <br>All images and logos are copyright/trademark of their respective owners. URDN is not affiliated with namebase.io, HNS.ID, HDNS.io, or the Handshake Development Team.</p>
+            </div>
+
+            <div class="col-0 col-lg-2 mb-3 order-3 order-lg-2">
+                <p></p>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-2 mb-3 order-1 order-lg-3 a-underline">
+                <h5>Resources</h5>
+                <ul class="nav flex-column a-underline">
+                    <li class="nav-item mb-2"><a href="https://handshake.org" target="_blank" class="nav-link p-0 text-body-secondary">handshake.org</a></li>
+                    <li class="nav-item mb-2"><a href="https://namebase.io" target="_blank" class="nav-link p-0 text-body-secondary">namebase.io</a></li>
+                    <li class="nav-item mb-2"><a href="https://hdns.io" target="_blank" class="nav-link p-0 text-body-secondary">HDNS.io</a></li>
+                </ul>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-2 mb-3 order-2 order-lg-4 a-underline">
+                <h5>Contact</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="https://x.com/@urdns" target="_blank" class="nav-link p-0 text-body-secondary">@urdns</a></li>
+                    <li class="nav-item mb-2"><a href="mailto:reg@urdn.net" target="_blank" class="nav-link p-0 text-body-secondary">reg@urdn.net</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Back to top</a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
