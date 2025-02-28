@@ -9,16 +9,56 @@
 </head>
 <body>
 
+    <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary border-bottom" style="background-color: #f8f8f8;">
+        <div class="container-fluid">
+          <a class="navbar-brand fs-3" href="#"><i>u<u>r</i><b>d</u>n</b></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Partners
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="https://porkbun.com/handshake" target="_blank">Porkbun</a></li>
+                    <li><a class="dropdown-item" href="https://www.encirca.com/handshake/" target="_blank">EnCirca</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Resources
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="https://hdns.io" target="_blank">HDNS</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="https://handshake.org" target="_blank">Handshake</a></li>
+                  <li><a class="dropdown-item" href="https://namebase.io" target="_blank">Namebase</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="sb-input2" />
+              <button class="btn btn-outline-secondary" type="submit" onclick="searchReg(document.getElementById('sb-input2').value);">Search</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+
     <div class="px-4 py-5 my-5 text-center">
         <div class="container">
             <img class="d-block mx-auto mb-4" src="images/regit.svg" alt="regit logo" width="80" height="80" />
-            <h1 class="display-5 fw-bold text-body-emphasis">URDN Registry</h1>
+            <h1 class="display-5  text-body-emphasis"><i>u<u>r</i><b>d</u>n</b> <b>Registry</b></h1>
             <div class="col-lg-6 mx-auto">
                 <p class="lead mb-4">Registry for decentralized second-level domains (dSLDs) of HNS decentralized “country” code top-level domains (dccTLDs).</p>
                 <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
                     <div class="input-group search-width-adjust">
-                        <input class="form-control" type="text" placeholder="Search for .dn, .ur, and .rd" id="sb-input" />
-                        <button class="btn btn-outline-secondary" type="submit" id="button-addon1" onclick="searchReg();">Search</button>
+                        <input class="form-control" type="text" placeholder="Search for .dn, .ur, and .rd" id="sb-input1" />
+                        <button class="btn btn-outline-secondary" type="submit" onclick="searchReg(document.getElementById('sb-input1').value);">Search</button>
                     </div>
                 </div>
             </div>
@@ -42,7 +82,7 @@
                     <div class="card-footer">
                         <small class="text-body-secondary">Available at 
                             <a href="https://porkbun.com/tld/dn" target="_blank">Porkbun</a> and 
-                            <a href="https://www.encirca.com/handshake-dn/">EnCirca</a>
+                            <a href="https://www.encirca.com/handshake-dn/" target="_blank">EnCirca</a>
                         </small>
                     </div>
                 </div>
@@ -61,7 +101,7 @@
                     <div class="card-footer">
                         <small class="text-body-secondary">Available at 
                             <a href="https://porkbun.com/tld/rd" target="_blank">Porkbun</a> and  
-                            <a href="https://www.encirca.com/handshake-rd/">EnCirca</a>
+                            <a href="https://www.encirca.com/handshake-rd/" target="_blank">EnCirca</a>
                         </small>
                     </div>
                 </div>
@@ -80,7 +120,7 @@
                     <div class="card-footer">
                         <small class="text-body-secondary">Available at 
                             <a href="https://porkbun.com/tld/ur" target="_blank">Porkbun</a> and  
-                            <a href="https://www.encirca.com/handshake-ur/">EnCirca</a>
+                            <a href="https://www.encirca.com/handshake-ur/" target="_blank">EnCirca</a>
                         </small>
                     </div>
                 </div>
@@ -95,7 +135,7 @@
                     <div class="col-12">
                     <div class="content a-partner">
                         <h2 class="fw-bold">Partner Registrars</h2>
-                        <p> Thanks to <a href="https://www.namebase.io/registry/" target="_blank">namebase</a>, our dTLDs are already available on some of the most well-known, trusted registrars out there.</p>
+                        <p>Thanks to <a href="https://www.namebase.io/registry/" target="_blank">Namebase</a>, our dTLDs are already available on some of the most well-known, trusted registrars out there.</p>
                     </div>
                     </div>
                 </div>
@@ -157,7 +197,7 @@
                     <svg class="bi" width="1em" height="1em"><use xlink:href="#people-circle"/></svg>
                 </div>
                 <h4 class=" text-body-emphasis">Digital Identity</h4>
-                <p>Create censorship-resistant domains on the <a href="https://handshake.org" target="_blank">Handshake</a> network. Your domain works as a universal, cross-chain login for accessing decentralized apps and platforms. You have control over what data is shared. Secure your identity for the decentralized web.</p>
+                <p>Create censorship-resistant domains on the <a href="https://handshake.org" target="_blank">Handshake</a> network. Your domain works as a universal, cross-chain identifier for accessing decentralized apps and platforms. You have full control over your online identity. Learn how to access your domain at <a href="https://hdns.io" target="_blank">HDNS</a>.</p>
             </div>
             <div class="feature col">
                 <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2 mb-3">
@@ -183,7 +223,7 @@
                     <img class="bi me-2" src="images/hns.svg" alt="HNS logo" width="40" height="32" />
                     
                 </a>
-                <p class="text-body-secondary">&copy; <script>document.write(new Date().getFullYear())</script> URDN <br>All images and logos are copyright/trademark of their respective owners. URDN is not affiliated with namebase.io, HNS.ID, HDNS.io, or the Handshake Development Team.</p>
+                <p class="text-body-secondary">&copy; <script>document.write(new Date().getFullYear())</script> URDN <br>All images and logos are copyright/trademark of their respective owners. URDN is not affiliated with Namebase, HNS.ID, HDNS, or the Handshake Development Team.</p>
             </div>
 
             <div class="col-0 col-lg-2 mb-3 order-3 order-lg-2">
@@ -199,7 +239,7 @@
                 </ul>
             </div>
 
-            <div class="col-12 col-sm-6 col-lg-2 mb-3 order-2 order-lg-4 a-underline">
+            <div class="col-12 col-sm-6 col-lg-2 mb-3 order-2 order-lg-4 a-underline" id="contact">
                 <h5>Contact</h5>
                 <ul class="nav flex-column">
                     <li class="nav-item mb-2"><a href="https://x.com/@urdns" target="_blank" class="nav-link p-0 text-body-secondary">@urdns</a></li>
