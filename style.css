@@ -50,9 +50,7 @@
 .client-logo-one .single-client {
     margin-top: 30px;
 }
-.client-logo-center-padding {
-    padding: 25px 0 0 0;
-}
+
 .logo-blur {
     filter: blur(6px);
 }
@@ -70,9 +68,17 @@
         padding-left: 60px;
     }
 }
+@media (min-width: 992px) {
+    .navbar-brand {
+        padding-left: 15px;
+    }
+}
 @media (min-width: 576px) {
     .search-width-adjust {
         max-width: 342px;
+    }
+    .client-logo-center-padding {
+    padding: 25px 0 0 0;
     }
 }
 .feature-icon {
@@ -100,4 +106,10 @@
 }
 .a-underline a:hover {
     text-decoration: underline;
+}
+.uc-icons {
+    font-size: 1.5em;
+}
+.uc-h4 {
+    padding-bottom: 20px;
 }

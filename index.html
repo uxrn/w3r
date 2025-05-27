@@ -10,6 +10,7 @@
     <link rel="manifest" href="favicon/site.webmanifest">
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 </head>
 <body>
 
@@ -23,23 +24,36 @@
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Resources
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="https://handshake.org" target="_blank">Handshake Documentation</a></li>
+                  <li><a class="dropdown-item" href="https://learn.namebase.io" target="_blank">Namebase Learning Center</a></li>
+                  <li><a class="dropdown-item" href="https://www.namecheap.com/support/knowledgebase/article.aspx/10484/2278/namecheap-handshake-tlds/" target="_blank">Namecheap Handshake TLDs</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  How to access?
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="https://nextdns.io/" target="_blank">NextDNS</a></li>
+                  <li><a class="dropdown-item" href="https://hdns.io" target="_blank">HDNS</a></li>
+                  <li><a class="dropdown-item" href="https://welcome.hnsdoh.com/" target="_blank">HNS DoH</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="https://hns.to/" target="_blank">Use '.hns.to' suffix in URL</a></li>
+                  <li><a class="dropdown-item" href="https://www.namebase.io/blog/how-to-access-handshake-domains/" target="_blank">How to access Handshake domains</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Partners
                 </a>
                 <ul class="dropdown-menu">
                     <li><a class="dropdown-item" href="https://porkbun.com/handshake" target="_blank">Porkbun</a></li>
                     <li><a class="dropdown-item" href="https://www.namebase.io/registrar" target="_blank">Namebase</a></li>
                     <li><a class="dropdown-item" href="https://www.encirca.com/handshake" target="_blank">EnCirca</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Resources
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="https://hdns.io" target="_blank">HDNS</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="https://handshake.org" target="_blank">Handshake</a></li>
-                  <li><a class="dropdown-item" href="https://namebase.io" target="_blank">Namebase</a></li>
+                    <li><a class="dropdown-item" href="https://www.namecheap.com/domains/handshake-domains/" target="_blank">Namecheap</a></li>
                 </ul>
               </li>
               <li class="nav-item">
@@ -182,45 +196,34 @@
         </div>
     </section>
 
-    <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
-        <symbol fill="currentColor" id="people-circle" viewBox="0 0 16 16">
-            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
-            <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
-        </symbol>
-        <symbol id="chevron-right" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-        </symbol>
-        <symbol  fill="currentColor" id="bi-wallet" viewBox="0 0 16 16">
-            <path d="M12.136.326A1.5 1.5 0 0 1 14 1.78V3h.5A1.5 1.5 0 0 1 16 4.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 13.5v-9a1.5 1.5 0 0 1 1.432-1.499zM5.562 3H13V1.78a.5.5 0 0 0-.621-.484zM1.5 4a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5z"/>
-        </symbol>
-        <symbol fill="currentColor" id="database-lock" viewBox="0 0 16 16">
-            <path d="M13 5.698a5 5 0 0 1-.904.525C11.022 6.711 9.573 7 8 7s-3.022-.289-4.096-.777A5 5 0 0 1 3 5.698V7c0 .374.356.875 1.318 1.313C5.234 8.729 6.536 9 8 9c.666 0 1.298-.056 1.876-.156-.43.31-.804.693-1.102 1.132A12 12 0 0 1 8 10c-1.573 0-3.022-.289-4.096-.777A5 5 0 0 1 3 8.698V10c0 .374.356.875 1.318 1.313C5.234 11.729 6.536 12 8 12h.027a4.6 4.6 0 0 0-.017.8A2 2 0 0 0 8 13c-1.573 0-3.022-.289-4.096-.777A5 5 0 0 1 3 11.698V13c0 .374.356.875 1.318 1.313C5.234 14.729 6.536 15 8 15c0 .363.097.704.266.997Q8.134 16.001 8 16c-1.573 0-3.022-.289-4.096-.777C2.875 14.755 2 14.007 2 13V4c0-1.007.875-1.755 1.904-2.223C4.978 1.289 6.427 1 8 1s3.022.289 4.096.777C13.125 2.245 14 2.993 14 4v4.256a4.5 4.5 0 0 0-1.753-.249C12.787 7.654 13 7.289 13 7zm-8.682-3.01C3.356 3.124 3 3.625 3 4c0 .374.356.875 1.318 1.313C5.234 5.729 6.536 6 8 6s2.766-.27 3.682-.687C12.644 4.875 13 4.373 13 4c0-.374-.356-.875-1.318-1.313C10.766 2.271 9.464 2 8 2s-2.766.27-3.682.687Z"/>
-            <path d="M9 13a1 1 0 0 1 1-1v-1a2 2 0 1 1 4 0v1a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1zm3-3a1 1 0 0 0-1 1v1h2v-1a1 1 0 0 0-1-1"/>
-        </symbol>
-    </svg>
-
     <div class="container px-4 py-5" id="featured-3">
         <h2 class="pb-2 text-center fw-bold">Use Cases</h2>
         <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
             <div class="feature col">
-                <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2 mb-3">
-                    <svg class="bi" width="1em" height="1em"><use xlink:href="#people-circle"/></svg>
+                <div class="justify-content-center text-center">
+                    <div class="d-inline-flex align-items-center justify-content-center fs-2 mb-3">
+                        <i class="bi bi-person-square uc-icons"></i>
+                    </div>
+                    <h4 class="text-body-emphasis uc-h4">Digital Identity</h4>
                 </div>
-                <h4 class=" text-body-emphasis">Digital Identity</h4>
                 <p>Create censorship-resistant domains on the <a href="https://handshake.org" target="_blank">Handshake</a> network. Your domain works as a universal, cross-chain identifier for accessing decentralized apps and platforms. You have full control over your online identity. Learn how to access your domain at <a href="https://hdns.io" target="_blank">HDNS</a>.</p>
             </div>
             <div class="feature col">
-                <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2 mb-3">
-                    <svg class="bi" width="1em" height="1em"><use xlink:href="#database-lock"/></svg>
+                <div class="justify-content-center text-center">
+                    <div class="d-inline-flex align-items-center justify-content-center fs-2 mb-3">
+                        <i class="bi bi-database-lock uc-icons"></i>
+                    </div>
+                    <h4 class="text-body-emphasis uc-h4">Resistant Websites</h4>
                 </div>
-                <h4 class=" text-body-emphasis">Resistant Websites</h4>
                 <p>Manage your domain's DNS records and enable HTTPS access via <a href="https://github.com/buffrr/letsdane" target="_blank">DANE</a> or upload your website to <a href="https://ipfs.tech/" target="_blank">IPFS</a> for decentralized hosting. Avoid the bureaucracy of ICANN and build on the only naming protocol with a truly decentralized root zone.</p>
             </div>
             <div class="feature col">
-                <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2 mb-3">
-                    <svg class="bi" width="1em" height="1em"><use xlink:href="#bi-wallet"/></svg>
+                <div class="justify-content-center text-center">
+                    <div class="d-inline-flex align-items-center justify-content-center fs-2 mb-3">
+                        <i class="bi bi-wallet2 uc-icons"></i>
+                    </div>
+                    <h4 class="text-body-emphasis uc-h4">Wallet Naming</h4>
                 </div>
-                <h4 class=" text-body-emphasis">Wallet Naming</h4>
                 <p>Get a human readable name to replace all of your lengthy crypto addresses. Stop copying and pasting and risking typos. Use your HNS domain to easily send or receive any cryptocurrency, token, or NFT. Transact between domains easily and efficiently.</p>
             </div>
         </div>
@@ -233,28 +236,31 @@
                     <img class="bi me-2" src="images/hns.svg" alt="HNS logo" width="40" height="32" />
                     
                 </a>
-                <p class="text-body-secondary">&copy; <script>document.write(new Date().getFullYear())</script> URDN <br>All images and logos are copyright/trademark of their respective owners. URDN is not affiliated with Namebase, HNS.ID, HDNS, or the Handshake Development Team.</p>
+                <p class="text-body-secondary">&copy; <script>document.write(new Date().getFullYear())</script> URDN <br>All images and logos are copyright/trademark of their respective owners. URDN is not affiliated with Namebase or the Handshake Development Team.</p>
             </div>
 
-            <div class="col-0 col-lg-2 mb-3 order-3 order-lg-2">
-                <p></p>
+            <div class="col-12 col-sm-4 col-lg-2 mb-3 order-2 order-lg-3 a-underline">
+                <h5>Access providers</h5>
+                <ul class="nav flex-column a-underline">
+                    <li class="nav-item mb-2"><a href="https://nextdns.io/" target="_blank" class="nav-link p-0 text-body-secondary">NextDNS.io</a></li>
+                    <li class="nav-item mb-2"><a href="https://hdns.io/" target="_blank" class="nav-link p-0 text-body-secondary">HDNS.io</a></li>
+                    <li class="nav-item mb-2"><a href="https://welcome.hnsdoh.com/" target="_blank" class="nav-link p-0 text-body-secondary">HNSDoH.com</a></li>
+                </ul>
             </div>
 
-            <div class="col-12 col-sm-6 col-lg-2 mb-3 order-1 order-lg-3 a-underline">
+            <div class="col-12 col-sm-4 col-lg-2 mb-3 order-1 order-lg-2 a-underline">
                 <h5>Resources</h5>
                 <ul class="nav flex-column a-underline">
                     <li class="nav-item mb-2"><a href="https://handshake.org" target="_blank" class="nav-link p-0 text-body-secondary">handshake.org</a></li>
                     <li class="nav-item mb-2"><a href="https://learn.namebase.io/" target="_blank" class="nav-link p-0 text-body-secondary">learn.namebase.io</a></li>
-                    <li class="nav-item mb-2"><a href="https://hdns.io" target="_blank" class="nav-link p-0 text-body-secondary">HDNS.io</a></li>
                 </ul>
             </div>
 
-            <div class="col-12 col-sm-6 col-lg-2 mb-3 order-2 order-lg-4 a-underline" id="contact">
+            <div class="col-12 col-sm-4 col-lg-2 mb-5 mb-sm-3 order-3 order-lg-4 a-underline" id="contact">
                 <h5>Contact</h5>
                 <ul class="nav flex-column">
-                    <li class="nav-item mb-2"><a href="https://x.com/@urdns" target="_blank" class="nav-link p-0 text-body-secondary">@urdns</a></li>
+                    <li class="nav-item mb-2"><a href="https://x.com/@urdns" target="_blank" class="nav-link p-0 text-body-secondary">x.com/urdns</a></li>
                     <li class="nav-item mb-2"><a href="mailto:reg@urdn.com" target="_blank" class="nav-link p-0 text-body-secondary">reg@urdn.com</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Back to top</a></li>
                 </ul>
             </div>
         </footer>
